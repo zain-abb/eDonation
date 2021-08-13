@@ -67,8 +67,8 @@ class _UserProfileState extends State<UserProfile> {
     final client = Unsplash.UnsplashClient(
       settings: Unsplash.ClientSettings(
         credentials: Unsplash.AppCredentials(
-          accessKey: 'SBbsW4XkRGfqSFlVNyLFml3xsl7yN-2QopDEMCr5T2A',
-          secretKey: '3yWOehXbPgbm_2F1RmBTN4SPc6-Ht8pHJz0EcBUBucE',
+          accessKey: 'UNSPLASH_ACCESS_KEY',
+          secretKey: 'UNSPLASH_SECRET_KEY',
         ),
       ),
     );
