@@ -129,7 +129,7 @@ class _CampaignLocationState extends State<CampaignLocationScreen> {
       return;
     }
 
-    const String PLACES_API_KEY = 'AIzaSyDNvSYHwxxVyGKKblCY3VtLXc6RMefh9Lg';
+    const String PLACES_API_KEY = 'YOUR_API';
 
     String baseURL =
         'https://maps.googleapis.com/maps/api/place/autocomplete/json';
